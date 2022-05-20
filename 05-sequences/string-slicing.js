@@ -30,4 +30,7 @@ console.log("message.slice(7)=>",message.slice(7)); // same as message.slice(7, 
 
 console.log('message.length =>', message.length);
 
+// slice with a negative index, negative index backward
+// the last character is -1
 console.log(message.slice(-3));
+console.log(message.slice()); // make a copy of the string
