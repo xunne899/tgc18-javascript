@@ -56,7 +56,7 @@ console.log(sku)
 // 2. FILTERING
 // given an array, create a new array that contains elements
 // from the original array provided that they meet certain requirements
-let fruits = ['figs', 'apples', 'pears', 'strawberries', 'mangosteen', 'durains'];
+let fruits = ['figs', 'apples', 'pears', 'strawberries', 'mangosteen', 'durians'];
 let shortlisted = [];
 for (let eachFruit of fruits) {
     if (eachFruit.length >=6) {
@@ -75,7 +75,7 @@ for(let p of products){
 }
 
 
-console.log(shortlistedproducts)
+console.log(shortlistedProducts)
 
 
 //3. Reducing 
@@ -101,4 +101,4 @@ for (let f of fruits){
 }
 
 
-console.log(longestFruits)
+console.log(longestFruit)
