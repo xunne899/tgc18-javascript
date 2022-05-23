@@ -24,7 +24,7 @@ function compare
 
 
 
-
+// ascending order
 function compareNumber(lhs, rhs) {
     // return 0 if lhs and rhs is the same
     // return -1 if lhs should come first
