@@ -19,6 +19,10 @@ for(let [key,value] of Object.entries(book)) {
     console.log(key, "=>", value);
 }
 
+for(let [name,info] of Object.entries(book)) {
+    console.log(name, "=>>>", info);
+}
+
 // Check if a key exists in an object
 console.log(`book.hasOwnProperty('ISBN') =>`, book.hasOwnProperty('ISBN'));
 console.log(`book.hasOwnProperty('publisher') =>`, book.hasOwnProperty('publisher'));
@@ -37,6 +41,7 @@ let userProfile = {
 }
 
 console.log(userProfile.address.building_number);
+console.log(userProfile['address']['building_number'])
 
 // we want store the author, title and pages into their own variables
 // let title = book.title;

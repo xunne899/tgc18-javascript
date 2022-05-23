@@ -11,9 +11,9 @@ let dog = {
     }
 }
 
-
-
-console/log(dog['name'])
+// console.log(dog.date-of-birth)
+console.log(dog.bark)
+console.log(dog['name'])
 console.log(dog.vaccines)
 console.log(dog['date-of-birth'])
 
@@ -30,5 +30,6 @@ console.log(bill.calculateGST())
 
 //if not valid variable name need bracket like ['date-of-birth']
 bill.tips =30
+bill.product = "soap"
 
 console.log(bill);
