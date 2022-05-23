@@ -75,3 +75,5 @@ let reducer = function (number,soFar){
 
 let total2 = numbers.reduce(reducer, 0)
 
+console.log(total2)
+
